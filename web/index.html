@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Ремонт бытовой техники: предварительный расчёт стоимости и обращение в мастерскую."
+    />
+    <title>Точка ремонта — техника снова в деле</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#"
+        ><span class="brand-icon">т<span>.</span></span
+        ><span>точка<br />ремонта</span></a
+      >
+      <nav aria-label="Основная навигация">
+        <a href="#services">Что ремонтируем</a><a href="#process">Как работаем</a
+        ><a href="#questions">Вопросы</a>
+      </nav>
+      <a class="outline-button" href="#request">Обсудить ремонт ↗</a>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> МАСТЕРСКАЯ БЫТОВОЙ ТЕХНИКИ</div>
+          <h1>Привычные вещи.<br /><em>Снова в деле.</em></h1>
+          <p>
+            Когда техника подводит, хочется понятного решения.<br />Опишите проблему — начнём с
+            предварительной оценки<br class="desktop" />
+            и согласуем следующий шаг в переписке.
+          </p>
+          <a class="solid-button" href="#estimate">Прикинуть стоимость <span>↗</span></a>
+          <div class="hero-foot">
+            <span>01 / Сначала согласование</span><span>02 / Затем ремонт</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <span class="visual-label">ПРОДОЛЖАЕМ ЖИЗНЬ ТЕХНИКИ</span
+          ><svg
+            viewBox="0 0 500 440"
+            role="img"
+            aria-label="Стилизованная стиральная машина и инструменты"
+          >
+            <defs>
+              <linearGradient id="cabinet" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#f9f8ed" />
+                <stop offset="1" stop-color="#d5d9c6" />
+              </linearGradient>
+              <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#58796b" />
+                <stop offset="1" stop-color="#203f35" />
+              </linearGradient>
+            </defs>
+            <ellipse cx="262" cy="395" rx="165" ry="22" fill="#263f2d" opacity=".10" />
+            <path d="M148 89 328 75 373 107 193 120Z" fill="#e8eadb" stroke="#a3ad96" />
+            <path d="m328 75 45 32v270l-45-21Z" fill="#b7c1aa" stroke="#91a083" />
+            <path
+              d="M148 89h180v267H148z"
+              fill="url(#cabinet)"
+              stroke="#8e9e84"
+              stroke-width="1.5"
+              transform="skewY(-4) translate(0 10)"
+            />
+            <path d="m148 89 180-13v61l-180 13Z" fill="#eceee2" stroke="#a3af95" />
+            <path d="m164 105 55-4v23l-55 4Z" fill="#cfd6c3" />
+            <circle cx="279" cy="107" r="15" fill="#edf0e2" stroke="#819478" stroke-width="3" />
+            <path d="m279 107 6-7" stroke="#728369" stroke-width="2" />
+            <circle cx="307" cy="107" r="3" fill="#b79d64" />
+            <ellipse
+              cx="240"
+              cy="242"
+              rx="72"
+              ry="79"
+              fill="#bdc9b2"
+              stroke="#9fae95"
+              stroke-width="2"
+            />
+            <ellipse
+              cx="240"
+              cy="242"
+              rx="60"
+              ry="67"
+              fill="#edf0e5"
+              stroke="#f8f9f2"
+              stroke-width="5"
+            />
+            <ellipse cx="240" cy="242" rx="50" ry="57" fill="url(#glass)" />
+            <path d="M202 255q40-33 75 0v20q-30 30-62 0Z" fill="#8caa8a" opacity=".6" />
+            <path
+              d="M209 210q15-23 35-19"
+              fill="none"
+              stroke="#b3cab0"
+              stroke-width="5"
+              stroke-linecap="round"
+              opacity=".5"
+            />
+            <path d="m298 230 8 0 0 26-8 0" fill="#83947a" />
+            <path d="m166 330 37-3" stroke="#96a58c" stroke-width="3" />
+            <path d="m170 357 0 13m137-23v13" stroke="#688163" stroke-width="8" />
+            <g transform="translate(377 264) rotate(22)">
+              <path
+                d="M0 0q-19 15 0 32v65a10 10 0 0 0 20 0V32q19-17 0-32v20H0Z"
+                fill="#ddbd6a"
+                stroke="#b59b53"
+              />
+              <circle cx="10" cy="95" r="3" fill="#f0e7bd" />
+            </g>
+            <g transform="translate(103 298) rotate(-16)">
+              <rect x="0" y="0" width="12" height="80" rx="5" fill="#355c43" />
+              <path d="M6 0v-35l-4-12h8L6-35" stroke="#97a38b" stroke-width="4" />
+            </g>
+            <circle cx="390" cy="106" r="29" fill="#e6d7a5" />
+            <path
+              d="m378 105 8 8 15-17"
+              stroke="#526b43"
+              stroke-width="3"
+              fill="none"
+              stroke-linecap="round"
+            />
+          </svg>
+          <div class="visual-caption">
+            <span>БЕЗ ЛИШНИХ ОБЕЩАНИЙ</span
+            ><strong>Стоимость — после диагностики.<br />Работы — после вашего согласия.</strong>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">01 / ЧЕМ МОЖЕМ ПОМОЧЬ</div>
+            <h2>То, что работает каждый день.</h2>
+          </div>
+          <p>Помогаем разобраться с неисправностью<br />и согласовать следующий шаг.</p>
+        </div>
+        <div class="service-grid">
+          <article>
+            <span class="service-number">01</span>
+            <div class="device-icon">◎</div>
+            <h3>Стиральные машины</h3>
+            <p>Слив, нагрев, вибрация<br />и другие неисправности.</p>
+            <button data-device="washer">Рассчитать <span>↗</span></button>
+          </article>
+          <article>
+            <span class="service-number">02</span>
+            <div class="device-icon">▥</div>
+            <h3>Посудомоечные машины</h3>
+            <p>Вода, сушка, ошибки<br />и качество мойки.</p>
+            <button data-device="dishwasher">Рассчитать <span>↗</span></button>
+          </article>
+          <article>
+            <span class="service-number">03</span>
+            <div class="device-icon">◌</div>
+            <h3>Сушильные машины</h3>
+            <p>Нагрев, вращение барабана<br />и посторонние звуки.</p>
+            <button data-device="dryer">Рассчитать <span>↗</span></button>
+          </article>
+        </div>
+      </section>
+      <section id="estimate" class="estimate">
+        <div>
+          <div class="eyebrow">02 / ПРЕДВАРИТЕЛЬНЫЙ РАСЧЁТ</div>
+          <h2>Понимать порядок цен —<br />уже спокойнее.</h2>
+          <p>
+            Выберите технику и проблему. Диапазон показывает<br />примерную стоимость работы без
+            запчастей.
+          </p>
+          <div class="quote-controls">
+            <label>Техника<select id="device"></select></label
+            ><label>Что случилось<select id="issue"></select></label>
+          </div>
+        </div>
+        <div class="quote-card">
+          <span>ОРИЕНТИР ПО РАБОТЕ</span
+          ><strong id="quote-price" aria-live="polite">Загрузка…</strong>
+          <p>Итог зависит от диагностики, модели и необходимых деталей.</p>
+          <a href="#request" class="solid-button">Описать мою проблему <span>→</span></a
+          ><small>Расчёт не является офертой или бронированием.</small>
+        </div>
+      </section>
+      <section id="process" class="process">
+        <div class="eyebrow">03 / БЕЗ НЕОЖИДАННЫХ ШАГОВ</div>
+        <h2>От обращения до решения.</h2>
+        <div class="process-grid">
+          <article>
+            <span>01</span>
+            <h3>Вы описываете проблему</h3>
+            <p>Модель, симптомы и удобный способ связи. Всё можно написать без звонка.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Согласуем диагностику</h3>
+            <p>
+              Мастер уточняет детали и договаривается о времени. Заявка сама по себе не назначает
+              визит.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Решаете после оценки</h3>
+            <p>Объём работ и стоимость согласуются до начала ремонта.</p>
+          </article>
+        </div>
+      </section>
+      <section id="request" class="request">
+        <div class="request-copy">
+          <div class="eyebrow">04 / НАЧНЁМ С ОПИСАНИЯ</div>
+          <h2>Расскажите,<br />что случилось.</h2>
+          <p>
+            Опишите технику и симптомы. Сохранённое обращение появится в очереди мастерской вместе с
+            вашим контактом для переписки.
+          </p>
+          <a href="admin.html">Открыть доску заявок ↗</a>
+          <div class="request-note">
+            Укажите удобное время для переписки.<br />Точное время визита согласуется отдельно.
+          </div>
+        </div>
+        <form id="request-form">
+          <div class="form-row">
+            <label
+              >Как к вам обращаться<input
+                name="name"
+                placeholder="Например, Алексей"
+                minlength="2"
+                maxlength="80"
+                required
+                autocomplete="off" /></label
+            ><label
+              >Контакт для переписки<input
+                name="contact"
+                placeholder="@client_name или email"
+                maxlength="100"
+                required
+                autocomplete="off"
+            /></label>
+          </div>
+          <label
+            >Модель и описание неисправности<textarea
+              name="description"
+              placeholder="Например: стиральная машина не сливает воду, на дисплее ошибка E20"
+              minlength="10"
+              maxlength="800"
+              rows="3"
+              required
+            ></textarea></label
+          ><label
+            >Когда удобно обсудить<input
+              name="preferred"
+              placeholder="Например, в будни после 18:00"
+              minlength="2"
+              maxlength="100"
+              required /></label
+          ><label class="checkbox"
+            ><input name="consent" type="checkbox" required /><span
+              >Разрешаю сохранить обращение и контакт для ответа по заявке.</span
+            ></label
+          ><button id="submit" class="solid-button" type="submit">
+            Отправить заявку <span>↗</span>
+          </button>
+          <div id="form-status" role="status" hidden></div>
+        </form>
+      </section>
+      <section id="questions" class="faq">
+        <div>
+          <div class="eyebrow">05 / ДО ТОГО КАК СПРОСИТЬ</div>
+          <h2>Несколько ответов.</h2>
+        </div>
+        <div>
+          <details open>
+            <summary>Почему калькулятор показывает диапазон?</summary>
+            <p>
+              По одному симптому нельзя установить причину. Расчёт помогает понять порядок цены
+              работы, а запчасти и итог согласуются после диагностики.
+            </p>
+          </details>
+          <details>
+            <summary>Можно общаться без звонка?</summary>
+            <p>Да. В этом сценарии клиент оставляет контакт для переписки и описание проблемы.</p>
+          </details>
+          <details>
+            <summary>Что происходит после отправки формы?</summary>
+            <p>
+              Обращение сохраняется в очереди мастерской. В нём есть описание проблемы, контакт и
+              пожелание по времени. Визит согласуется отдельно.
+            </p>
+          </details>
+          <details>
+            <summary>Что написать, если модель техники неизвестна?</summary>
+            <p>
+              Опишите, что изменилось в работе техники, когда появилась проблема и есть ли код
+              ошибки. Если знаете производителя, укажите и его.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#"
+        ><span class="brand-icon">т<span>.</span></span
+        ><span>точка<br />ремонта</span></a
+      ><span>Точка ремонта · бытовая техника</span><a href="admin.html">Доска заявок ↗</a>
+    </footer>
+  </body>
+</html>

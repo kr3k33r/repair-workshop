@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Заявки — Точка ремонта</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="admin.js" defer></script>
+  </head>
+  <body>
+    <div class="notice-strip">Рабочая очередь мастерской</div>
+    <main class="admin-main">
+      <a href="/">← На сайт мастерской</a>
+      <div class="eyebrow" style="margin-top: 30px">РАБОЧЕЕ МЕСТО МАСТЕРСКОЙ</div>
+      <h1 style="font-size: 42px">Заявки под рукой.</h1>
+      <div class="admin-tools">
+        <p id="summary">Загрузка…</p>
+        <select id="filter" aria-label="Фильтр статуса">
+          <option value="all">Все обращения</option>
+          <option value="new">Новые</option>
+          <option value="progress">В работе</option>
+          <option value="done">Завершённые</option></select
+        ><button id="refresh" class="outline-button">Обновить ↻</button>
+      </div>
+      <p id="error" class="admin-message" role="alert"></p>
+      <div id="requests" class="request-grid"></div>
+      <p class="admin-message">
+        Показаны последние 200 обращений. Статусы сохраняются после перезапуска сервера.
+      </p>
+    </main>
+  </body>
+</html>
